@@ -20,10 +20,10 @@ def main():
         podcast_info = available_podcast_info[selected_podcast]
 
         # Right section - Newsletter content
-        st.header("Newsletter Content")
+   #     st.header("Newsletter Content")
 
         # Display the podcast title
-        st.subheader("Episode Title")
+        st.header("Episode Title")
         st.write(podcast_info['podcast_details']['episode_title'])
 
         # Display the podcast summary and the cover image in a side-by-side layout
@@ -68,10 +68,10 @@ def main():
         podcast_info = process_podcast_info(url)
 
         # Right section - Newsletter content
-        st.header("Newsletter Content")
+     #   st.header("Newsletter Content")
 
         # Display the podcast title
-        st.subheader("Episode Title")
+        st.header("Episode Title")
         st.write(podcast_info['podcast_details']['episode_title'])
 
         # Display the podcast summary and the cover image in a side-by-side layout
