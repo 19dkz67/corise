@@ -4,7 +4,7 @@ import json
 import os
 
 def main():
-    st.title("The AI Newsletter Dashboard")
+    st.title("AI PodDigest: Unpacking Podcasts with Artificial Intelligence")
 
     available_podcast_info = create_dict_from_json_files('.')
 
